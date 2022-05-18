@@ -1,13 +1,13 @@
 const router = require('express').Router();
-const data = require('./data/db.json');
-const { addNote, deleteNote } = require('../..lib/data.js');
+const data = require('../../data/db.json');
+const { addNote, deleteNote } = require('../../lib/data.js');
 
 router.get('/notes', (req, res) => {
     res.send(data);
 });
 
 router.get('/', (req, res) => {
-    res.send('API HERE!');
+    res.send('api is here');
 });
 
 router.post('/notes', (req, res) => {
@@ -15,7 +15,7 @@ router.post('/notes', (req, res) => {
     res.json();
 });
 
-router.delete('/notes', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
     deleteNote(req.params);
     res.json();
 });
