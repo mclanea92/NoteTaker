@@ -49,3 +49,12 @@ If you have any questions about this project, please feel free to contact me at 
 
 ## Screenshots
 
+The first screenshot is the page you get when you first start the server
+![first page when starting the server](./images/pg1.png)
+
+
+The screenshot below is after you get started, what the notes page looks like.
+![where you can add notes to the server for the user](./images/pg2.png)
+
+This screenshot below is the db.json in the code that holds the notes that user added and will load everytime this application is loaded.
+![db.json where the data is stored from the user](./images/json.png)
