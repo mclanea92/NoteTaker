@@ -1,10 +1,10 @@
 # NoteTaker
 
 ## Description
-This project is used to understand making a server.  We have two webpages that are connected when the server is running and you can add and delete notes.  The notes that are added or deleted are taken in and out of the data.js file so they are always there when needed and how the user created them.
+This project is used to understand making a server.  We have two webpages that are connected when the server is running and you can add and delete notes.  The notes that are added or deleted are taken in and out of the db.json file so they are always there when needed and how the user created them.
 
 ## My Task / User Story
-My task was to create a server with the starter code provided and have it interact with the user in the correct way by adding notes to the data.js file.
+My task was to create a server with the starter code provided and have it interact with the user in the correct way by adding notes to the db.json file.
 
 ## List of Technologies Used
  - npm
@@ -48,3 +48,4 @@ To run a test on this project, you have to download npm express and initilize it
 If you have any questions about this project, please feel free to contact me at mclanea92@gmail.com
 
 ## Screenshots
+
