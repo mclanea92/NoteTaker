@@ -17,8 +17,10 @@ app.use(express.json());
 // makes it so the public folder is connected to the rest of the files
 app.use(express.static('public'));
 
+// connects to routes
 app.use('/api', apiRoute);
 
+//connects to routes
 app.use('/', htmlRoute);
 
 app.listen(PORT, () => {
