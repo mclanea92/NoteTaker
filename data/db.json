@@ -1,17 +1,1 @@
-[
-    {
-        "title": "Test note 1",
-        "text": "this is a test to see if the notes work\n",
-        "id": "2c69"
-    },
-    {
-        "title": "Adam",
-        "text": "Mclane",
-        "id": "87dd"
-    },
-    {
-        "title": "test",
-        "text": "adsv",
-        "id": "e3f6"
-    }
-]
+[{"title":"Adam","text":"Mclane","id":"87dd"},{"title":"test","text":"adsv","id":"e3f6"},{"title":"test note","text":"test note for testing file","id":"25dc"}]
